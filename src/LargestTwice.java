@@ -16,7 +16,7 @@ public class LargestTwice {
                         }
                 }
                 for(int i=0;i<n;i++){
-                        if(maxi<arr[2]*i){
+                        if(maxi<arr[i]*2 && i!=idx){
                                 idx=-1;
                                 break;
                         }
